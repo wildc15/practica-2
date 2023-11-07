@@ -1,0 +1,35 @@
+.trabajador__imagen{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+.persona_imagen--imagen1{
+    background-image:url(/assets/img/personas/p1.jpg);
+}
+.persona_imagen--imagen2{
+    background-image:url(/assets/img/personas/p2.jpg);
+}
+.persona_imagen--imagen3{
+    background-image:url(/assets/img/personas/p3.jpg);
+}
+@media screen and(min-width:0) {
+    .trabajador__imagen{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and(min-width:768px) {
+    .trabajador__imagen{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and(min-width:992px) {
+    .trabajador__imagen{
+        width: 300px;
+        height: 300px;
+    }
+}

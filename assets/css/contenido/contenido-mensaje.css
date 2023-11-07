@@ -3,3 +3,14 @@
     font-weight: 100px;
     
 }
+@media screen and(min-width:0) {
+    .contenido__mensaje{
+        font-size: 1rem;
+        
+    }
+}
+@media screen and(min-width:768px) {
+    .contenido__mensaje{
+        font-size: 1.7rem;
+    }
+}

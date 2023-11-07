@@ -3,3 +3,18 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media screen and(min-width:0) {
+    .productos{
+        padding: 4rem 0 0 1rem;
+    }
+}
+@media screen and(min-width:768px) {
+    .productos{
+        padding: 4rem 0 0 2.5rem ;
+    }
+}
+@media screen and(min-width:992px) {
+    .productos{
+        padding: 5rem 0 0 5rem ;
+    }
+}

@@ -1,0 +1,8 @@
+.piedepagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
